@@ -205,9 +205,20 @@ footer span {
 @media all and (min-width:768px) {
   .bottom-section{
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-flow: row wrap;
+		justify-content: space-between;
+		flex-flow: wrap;
+	}
+
+	.section-one {
+		width: 33%;
+	}
+
+	.section-two {
+		width: 33%
+	}
+
+	.section-three {
+		width: 33%
 	}
 }
 
